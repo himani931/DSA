@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <list>
+#include <queue>
 using namespace std;
 
 class Graph
@@ -33,6 +34,30 @@ public:
       cout << endl;
     }
   }
+
+  // BFS TRAVERSAL
+  void bfs()
+  {
+    queue<int> q;
+    vector<bool> vis(V, false);
+    q.push(0);
+    vis[0] = true;
+    while (q.size() > 0)
+    {
+      int u = q.front(); // source
+      q.pop();
+      cout << u << " ";
+      for (int v : l[u])
+      {
+        if (!vis[v])
+        {
+          vis[v] = true;
+          q.push(v);
+        }
+      }
+    }
+    cout << endl;
+  }
 };
 
 int main()
@@ -45,6 +70,9 @@ int main()
   g.addEdge(2, 4);
 
   g.printAdjList();
+  cout << endl;
+  cout << "BFS TRAVERSAL : ";
+  g.bfs();
 
   return 0;
 }
