@@ -43,15 +43,51 @@ public:
     return false;
   }
 
+  bool isCycleBFS(int src, vector<bool> &vis)
+  {
+    queue<pair<int, int>> q;
+    q.push({src, -1});
+    vis[src] = true;
+    while (q.size() > 0)
+    {
+      int u = q.front().first;
+      int par = q.front().second;
+      q.pop();
+
+      list<int> neigh = l[u];
+
+      for (int v : neigh)
+      {
+        if (!vis[v])
+        {
+          q.push({v, u});
+          vis[v] = true;
+        }
+        else if (v != par)
+        {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
   bool isCycle()
   {
     vector<bool> vis(V, false);
 
-    for (int i = 0; i < V; i++)
+    for (int i = 0; i < V; i++) // for disconnected graph too
     {
       if (!vis[i])
       {
-        if (isCycleDFS(i, vis, -1))
+        // dfs
+        //  if (isCycleDFS(i, vis, -1))
+        //  {
+        //    return true;
+        //  }
+
+        // bfs
+        if (isCycleBFS(i, vis))
         {
           return true;
         }
@@ -66,7 +102,7 @@ int main()
   Graph g(5);
 
   g.addEdge(0, 1);
-  // g.addEdge(0, 2);
+  g.addEdge(0, 2);
   g.addEdge(0, 3);
   g.addEdge(1, 2);
   g.addEdge(3, 4);
