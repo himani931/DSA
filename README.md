@@ -5,11 +5,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/himani931/DSA/tree/master/0051-n-queens) |
+| [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0198-house-robber](https://github.com/himani931/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/himani931/DSA/tree/master/0213-house-robber-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0198-house-robber](https://github.com/himani931/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/himani931/DSA/tree/master/0213-house-robber-ii) |
 ## Backtracking
@@ -28,4 +30,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/himani931/DSA/tree/master/0002-add-two-numbers) |
+## Stack
+|  |
+| ------- |
+| [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
+## Matrix
+|  |
+| ------- |
+| [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 <!---LeetCode Topics End-->
