@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/himani931/DSA/tree/master/0011-container-with-most-water) |
 | [0051-n-queens](https://github.com/himani931/DSA/tree/master/0051-n-queens) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0198-house-robber](https://github.com/himani931/DSA/tree/master/0198-house-robber) |
@@ -53,4 +54,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1331-rank-transform-of-an-array](https://github.com/himani931/DSA/tree/master/1331-rank-transform-of-an-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/himani931/DSA/tree/master/0011-container-with-most-water) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/himani931/DSA/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
