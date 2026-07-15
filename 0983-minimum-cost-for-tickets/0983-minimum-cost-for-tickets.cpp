@@ -1,5 +1,22 @@
 class Solution {
 public:
+// int solve(int n , vector<int>& days, vector<int>& costs , int index) {
+//         if(index >= n) return 0 ;
+
+//         int op1 = costs[0] + solve(n , days , costs , index+1 );
+
+//         int i ;
+//         for(i = index ; i< n && days[i] < days[index]+ 7 ; i++);
+//         int op2 = costs[1] + solve( n , days , costs , i ); 
+
+//          for(i = index ; i< n && days[i] < days[index]+30 ; i++);
+//          int op3 = costs[2] + solve(n , days , costs , i );
+
+//           return min(op1 , min(op2 , op3)); 
+//           
+        
+//     }
+
 
     int solve(int n , vector<int>& days, vector<int>& costs , int index , vector<int> &dp) {
         if(index >= n) return 0 ;
