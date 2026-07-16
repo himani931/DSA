@@ -36,24 +36,50 @@ public:
 
     // bottom up
 
+    // int solve(vector<vector<char>>& matrix , int &maxi) {
+    //     int n = matrix.size();
+    //     int m = matrix[0].size();
+    //     vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
+    //     for (int i = n-1 ; i >= 0; i--) {
+    //         for (int j = m-1 ; j >= 0; j--) {
+    //             int right = dp[i][j+1];
+    //             int diagnol = dp[i + 1][j + 1];
+    //             int down = dp[i + 1][j];
+    //             if (matrix[i][j] == '1') {
+    //                 dp[i][j] = 1 + min(right, min(diagnol, down));
+    //                 maxi = max(dp[i][j], maxi);
+    //             } else {
+    //                dp[i][j] = 0;
+    //             }
+    //         }
+    //     }
+    //     return dp[0][0];
+    // }
+
+//space optimizatipon
+
+
     int solve(vector<vector<char>>& matrix , int &maxi) {
         int n = matrix.size();
         int m = matrix[0].size();
-        vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
+        vector<int> curr(m+1 ,0);
+        vector<int> next(m+1 ,0);
+        
         for (int i = n-1 ; i >= 0; i--) {
             for (int j = m-1 ; j >= 0; j--) {
-                int right = dp[i][j+1];
-                int diagnol = dp[i + 1][j + 1];
-                int down = dp[i + 1][j];
+                int right = curr[j+1];
+                int diagnol = next[j + 1];
+                int down = next[j];
                 if (matrix[i][j] == '1') {
-                    dp[i][j] = 1 + min(right, min(diagnol, down));
-                    maxi = max(dp[i][j], maxi);
+                    curr[j] = 1 + min(right, min(diagnol, down));
+                    maxi = max(curr[j], maxi);
                 } else {
-                   dp[i][j] = 0;
+                   curr[j] = 0;
                 }
             }
+            next = curr;
         }
-        return dp[0][0];
+        return next[0];
     }
 
     int maximalSquare(vector<vector<char>>& matrix) {
