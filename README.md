@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0377-combination-sum-iv](https://github.com/himani931/DSA/tree/master/0377-combination-sum-iv) |
 | [0983-minimum-cost-for-tickets](https://github.com/himani931/DSA/tree/master/0983-minimum-cost-for-tickets) |
 | [1331-rank-transform-of-an-array](https://github.com/himani931/DSA/tree/master/1331-rank-transform-of-an-array) |
+| [1824-minimum-sideway-jumps](https://github.com/himani931/DSA/tree/master/1824-minimum-sideway-jumps) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/himani931/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Dynamic Programming
 |  |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/himani931/DSA/tree/master/0279-perfect-squares) |
 | [0377-combination-sum-iv](https://github.com/himani931/DSA/tree/master/0377-combination-sum-iv) |
 | [0983-minimum-cost-for-tickets](https://github.com/himani931/DSA/tree/master/0983-minimum-cost-for-tickets) |
+| [1824-minimum-sideway-jumps](https://github.com/himani931/DSA/tree/master/1824-minimum-sideway-jumps) |
 ## Backtracking
 |  |
 | ------- |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/himani931/DSA/tree/master/0011-container-with-most-water) |
+| [1824-minimum-sideway-jumps](https://github.com/himani931/DSA/tree/master/1824-minimum-sideway-jumps) |
 ## Breadth-First Search
 |  |
 | ------- |
