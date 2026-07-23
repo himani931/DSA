@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/himani931/DSA/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/himani931/DSA/tree/master/0027-remove-element) |
 | [0051-n-queens](https://github.com/himani931/DSA/tree/master/0051-n-queens) |
+| [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0198-house-robber](https://github.com/himani931/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/himani931/DSA/tree/master/0213-house-robber-ii) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0221-maximal-square](https://github.com/himani931/DSA/tree/master/0221-maximal-square) |
 ## Monotonic Stack
@@ -90,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/himani931/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
