@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/himani931/DSA/tree/master/0027-remove-element) |
 | [0051-n-queens](https://github.com/himani931/DSA/tree/master/0051-n-queens) |
 | [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
+| [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0198-house-robber](https://github.com/himani931/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/himani931/DSA/tree/master/0213-house-robber-ii) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/himani931/DSA/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 ## Linked List
 |  |
 | ------- |
@@ -96,4 +98,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
