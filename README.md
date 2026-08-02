@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/himani931/DSA/tree/master/0002-add-two-numbers) |
+| [0069-sqrtx](https://github.com/himani931/DSA/tree/master/0069-sqrtx) |
 | [0279-perfect-squares](https://github.com/himani931/DSA/tree/master/0279-perfect-squares) |
 | [0486-predict-the-winner](https://github.com/himani931/DSA/tree/master/0486-predict-the-winner) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/himani931/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/himani931/DSA/tree/master/0069-sqrtx) |
 | [0099-recover-binary-search-tree](https://github.com/himani931/DSA/tree/master/0099-recover-binary-search-tree) |
 | [0287-find-the-duplicate-number](https://github.com/himani931/DSA/tree/master/0287-find-the-duplicate-number) |
 ## Heap (Priority Queue)
