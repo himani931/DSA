@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/himani931/DSA/tree/master/0279-perfect-squares) |
 | [0486-predict-the-winner](https://github.com/himani931/DSA/tree/master/0486-predict-the-winner) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/himani931/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/himani931/DSA/tree/master/3345-smallest-divisible-digit-product-i) |
 ## Recursion
 |  |
 | ------- |
@@ -165,4 +166,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0354-russian-doll-envelopes](https://github.com/himani931/DSA/tree/master/0354-russian-doll-envelopes) |
+## Enumeration
+|  |
+| ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/himani931/DSA/tree/master/3345-smallest-divisible-digit-product-i) |
 <!---LeetCode Topics End-->
