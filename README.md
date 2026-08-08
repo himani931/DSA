@@ -136,11 +136,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0099-recover-binary-search-tree](https://github.com/himani931/DSA/tree/master/0099-recover-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/himani931/DSA/tree/master/0102-binary-tree-level-order-traversal) |
+| [0450-delete-node-in-a-bst](https://github.com/himani931/DSA/tree/master/0450-delete-node-in-a-bst) |
 ## Binary Tree
 |  |
 | ------- |
 | [0099-recover-binary-search-tree](https://github.com/himani931/DSA/tree/master/0099-recover-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/himani931/DSA/tree/master/0102-binary-tree-level-order-traversal) |
+| [0450-delete-node-in-a-bst](https://github.com/himani931/DSA/tree/master/0450-delete-node-in-a-bst) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -153,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0099-recover-binary-search-tree](https://github.com/himani931/DSA/tree/master/0099-recover-binary-search-tree) |
 | [0287-find-the-duplicate-number](https://github.com/himani931/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0354-russian-doll-envelopes](https://github.com/himani931/DSA/tree/master/0354-russian-doll-envelopes) |
+| [0450-delete-node-in-a-bst](https://github.com/himani931/DSA/tree/master/0450-delete-node-in-a-bst) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
