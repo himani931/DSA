@@ -32,29 +32,45 @@ public:
 
     //bottom up
 
-    int solve(int n) {
+    // int solve(int n) {
 
-        vector<int> dp(n+1 , 0);
+    //     vector<int> dp(n+1 , 0);
 
-        dp[0] = 1;
-        dp[1] = 1;
+    //     dp[0] = 1;
+    //     dp[1] = 1;
 
-        int ans = 0 ;
+    //     int ans = 0 ;
 
-        // i = number of nodes
-        for(int i = 2 ;  i<= n ; i++) {
+    //     // i = number of nodes
+    //     for(int i = 2 ;  i<= n ; i++) {
 
-            // j = root node
+    //         // j = root node
 
-            for(int j = 1 ; j <= i ; j++) {
-                dp[i] += dp[j-1] * dp[i-j];
-            }
+    //         for(int j = 1 ; j <= i ; j++) {
+    //             dp[i] += dp[j-1] * dp[i-j];
+    //         }
+    //     }
+    //     return dp[n];
+    // }
+
+    //catalan number
+
+    int cn(int n) {
+        long long ans = 1;
+
+        // Cn = (2n)! / (n! * n!)
+        // Calculate C(2n, n) iteratively
+        for (int i = 1; i <= n; i++) {
+            ans = ans * (n + i) / i;
         }
-        return dp[n];
+
+        // Catalan number = C(2n,n) / (n+1)
+        return ans / (n + 1);
     }
 
     int numTrees(int n) {
         // vector<int> dp(n+1 , -1);
-        return solve(n);
+        // return solve(n);
+        return cn(n);
     }
 };
