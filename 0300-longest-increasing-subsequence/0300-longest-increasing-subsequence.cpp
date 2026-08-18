@@ -61,27 +61,48 @@ public:
 
     //so
 
-     int solve(int n, vector<int>& a) {
-        vector<int> currRow(n+1 , 0);
-        vector<int> next(n+1 , 0);
+    //  int solve(int n, vector<int>& a) {
+    //     vector<int> currRow(n+1 , 0);
+    //     vector<int> next(n+1 , 0);
 
-        for (int curr = n - 1; curr >= 0; curr--) {
-            for (int prev = curr - 1; prev >= -1; prev--) {
-                // include
-                int take = 0;
-                if (prev == -1 || a[curr] > a[prev]) {
-                    take = 1 + next[curr + 1];
-                }
+    //     for (int curr = n - 1; curr >= 0; curr--) {
+    //         for (int prev = curr - 1; prev >= -1; prev--) {
+    //             // include
+    //             int take = 0;
+    //             if (prev == -1 || a[curr] > a[prev]) {
+    //                 take = 1 + next[curr + 1];
+    //             }
 
-                // exclude
-                int notTake = 0 + next[prev + 1];
+    //             // exclude
+    //             int notTake = 0 + next[prev + 1];
 
-                currRow[prev + 1] = max(take, notTake);
+    //             currRow[prev + 1] = max(take, notTake);
+    //         }
+    //         next = currRow;
+    //     }
+    //     return next[0];
+    // }
+
+
+    //dp + binary search
+
+    int solve(int n , vector<int> &a) {
+        if(n == 0) return 0;
+
+        vector<int> ans;
+        ans.push_back(a[0]);
+
+        for(int i = 1 ; i < n ; i++) {
+            if(a[i] > ans.back()) {
+                ans.push_back(a[i]);
+            } else{
+                int index = lower_bound(ans.begin() , ans.end() , a[i]) - ans.begin();
+                ans[index] = a[i];
             }
-            next = currRow;
         }
-        return next[0];
-    }
+        return ans.size();
+    } 
+
 
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
