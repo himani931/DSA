@@ -39,24 +39,48 @@ public:
 
     // bottom up
 
-    int solve(int n, vector<int>& a) {
-        vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+    // int solve(int n, vector<int>& a) {
+    //     vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+
+    //     for (int curr = n - 1; curr >= 0; curr--) {
+    //         for (int prev = curr - 1; prev >= -1; prev--) {
+    //             // include
+    //             int take = 0;
+    //             if (prev == -1 || a[curr] > a[prev]) {
+    //                 take = 1 + dp[curr + 1][curr + 1];
+    //             }
+
+    //             // exclude
+    //             int notTake = 0 + dp[curr + 1][prev + 1];
+
+    //             dp[curr][prev + 1] = max(take, notTake);
+    //         }
+    //     }
+    //     return dp[0][0];
+    // }
+
+    //so
+
+     int solve(int n, vector<int>& a) {
+        vector<int> currRow(n+1 , 0);
+        vector<int> next(n+1 , 0);
 
         for (int curr = n - 1; curr >= 0; curr--) {
             for (int prev = curr - 1; prev >= -1; prev--) {
                 // include
                 int take = 0;
                 if (prev == -1 || a[curr] > a[prev]) {
-                    take = 1 + dp[curr + 1][curr + 1];
+                    take = 1 + next[curr + 1];
                 }
 
                 // exclude
-                int notTake = 0 + dp[curr + 1][prev + 1];
+                int notTake = 0 + next[prev + 1];
 
-                dp[curr][prev + 1] = max(take, notTake);
+                currRow[prev + 1] = max(take, notTake);
             }
+            next = currRow;
         }
-        return dp[0][0];
+        return next[0];
     }
 
     int lengthOfLIS(vector<int>& nums) {
