@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/himani931/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/himani931/DSA/tree/master/0011-container-with-most-water) |
+| [0018-4sum](https://github.com/himani931/DSA/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/himani931/DSA/tree/master/0027-remove-element) |
 | [0048-rotate-image](https://github.com/himani931/DSA/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/himani931/DSA/tree/master/0051-n-queens) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0018-4sum](https://github.com/himani931/DSA/tree/master/0018-4sum) |
 | [0354-russian-doll-envelopes](https://github.com/himani931/DSA/tree/master/0354-russian-doll-envelopes) |
 | [1331-rank-transform-of-an-array](https://github.com/himani931/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1402-reducing-dishes](https://github.com/himani931/DSA/tree/master/1402-reducing-dishes) |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/himani931/DSA/tree/master/0011-container-with-most-water) |
+| [0018-4sum](https://github.com/himani931/DSA/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/himani931/DSA/tree/master/0027-remove-element) |
 | [0061-rotate-list](https://github.com/himani931/DSA/tree/master/0061-rotate-list) |
 | [0287-find-the-duplicate-number](https://github.com/himani931/DSA/tree/master/0287-find-the-duplicate-number) |
