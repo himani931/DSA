@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/himani931/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/himani931/DSA/tree/master/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/himani931/DSA/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/himani931/DSA/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/himani931/DSA/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/himani931/DSA/tree/master/0018-4sum) |
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/himani931/DSA/tree/master/0014-longest-common-prefix) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/himani931/DSA/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/himani931/DSA/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Sliding Window
@@ -245,4 +247,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/himani931/DSA/tree/master/0069-sqrtx) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/himani931/DSA/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
