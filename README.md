@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/himani931/DSA/tree/master/1691-maximum-height-by-stacking-cuboids) |
 | [1824-minimum-sideway-jumps](https://github.com/himani931/DSA/tree/master/1824-minimum-sideway-jumps) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/himani931/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/himani931/DSA/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/himani931/DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/himani931/DSA/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/himani931/DSA/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1388-pizza-with-3n-slices](https://github.com/himani931/DSA/tree/master/1388-pizza-with-3n-slices) |
 | [1402-reducing-dishes](https://github.com/himani931/DSA/tree/master/1402-reducing-dishes) |
 | [1824-minimum-sideway-jumps](https://github.com/himani931/DSA/tree/master/1824-minimum-sideway-jumps) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/himani931/DSA/tree/master/2091-removing-minimum-and-maximum-from-array) |
 ## Breadth-First Search
 |  |
 | ------- |
