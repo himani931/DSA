@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/himani931/DSA/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/himani931/DSA/tree/master/0051-n-queens) |
 | [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/himani931/DSA/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0134-gas-station](https://github.com/himani931/DSA/tree/master/0134-gas-station) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/himani931/DSA/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0096-unique-binary-search-trees](https://github.com/himani931/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0198-house-robber](https://github.com/himani931/DSA/tree/master/0198-house-robber) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/himani931/DSA/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/himani931/DSA/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/himani931/DSA/tree/master/0134-gas-station) |
 | [1388-pizza-with-3n-slices](https://github.com/himani931/DSA/tree/master/1388-pizza-with-3n-slices) |
 | [1402-reducing-dishes](https://github.com/himani931/DSA/tree/master/1402-reducing-dishes) |
