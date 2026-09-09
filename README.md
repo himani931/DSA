@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/himani931/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/himani931/DSA/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/himani931/DSA/tree/master/0213-house-robber-ii) |
+| [0217-contains-duplicate](https://github.com/himani931/DSA/tree/master/0217-contains-duplicate) |
 | [0221-maximal-square](https://github.com/himani931/DSA/tree/master/0221-maximal-square) |
 | [0287-find-the-duplicate-number](https://github.com/himani931/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/himani931/DSA/tree/master/0300-longest-increasing-subsequence) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/himani931/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0217-contains-duplicate](https://github.com/himani931/DSA/tree/master/0217-contains-duplicate) |
 | [1027-longest-arithmetic-subsequence](https://github.com/himani931/DSA/tree/master/1027-longest-arithmetic-subsequence) |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/himani931/DSA/tree/master/1218-longest-arithmetic-subsequence-of-given-difference) |
 | [1331-rank-transform-of-an-array](https://github.com/himani931/DSA/tree/master/1331-rank-transform-of-an-array) |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/himani931/DSA/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/himani931/DSA/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/himani931/DSA/tree/master/0018-4sum) |
+| [0217-contains-duplicate](https://github.com/himani931/DSA/tree/master/0217-contains-duplicate) |
 | [0354-russian-doll-envelopes](https://github.com/himani931/DSA/tree/master/0354-russian-doll-envelopes) |
 | [1331-rank-transform-of-an-array](https://github.com/himani931/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1402-reducing-dishes](https://github.com/himani931/DSA/tree/master/1402-reducing-dishes) |
