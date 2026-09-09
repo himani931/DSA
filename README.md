@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/himani931/DSA/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
+| [0128-longest-consecutive-sequence](https://github.com/himani931/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/himani931/DSA/tree/master/0134-gas-station) |
 | [0152-maximum-product-subarray](https://github.com/himani931/DSA/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/himani931/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/himani931/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [1027-longest-arithmetic-subsequence](https://github.com/himani931/DSA/tree/master/1027-longest-arithmetic-subsequence) |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/himani931/DSA/tree/master/1218-longest-arithmetic-subsequence-of-given-difference) |
 | [1331-rank-transform-of-an-array](https://github.com/himani931/DSA/tree/master/1331-rank-transform-of-an-array) |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/himani931/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/himani931/DSA/tree/master/0200-number-of-islands) |
 ## Game Theory
 |  |
