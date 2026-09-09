@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1388-pizza-with-3n-slices](https://github.com/himani931/DSA/tree/master/1388-pizza-with-3n-slices) |
 | [1402-reducing-dishes](https://github.com/himani931/DSA/tree/master/1402-reducing-dishes) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/himani931/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1470-shuffle-the-array](https://github.com/himani931/DSA/tree/master/1470-shuffle-the-array) |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/himani931/DSA/tree/master/1691-maximum-height-by-stacking-cuboids) |
 | [1824-minimum-sideway-jumps](https://github.com/himani931/DSA/tree/master/1824-minimum-sideway-jumps) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/himani931/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
