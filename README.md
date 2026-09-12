@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
+| [0155-min-stack](https://github.com/himani931/DSA/tree/master/0155-min-stack) |
 ## Matrix
 |  |
 | ------- |
@@ -297,4 +298,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3903-smallest-stable-index-i](https://github.com/himani931/DSA/tree/master/3903-smallest-stable-index-i) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/himani931/DSA/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
