@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/himani931/DSA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/himani931/DSA/tree/master/0055-jump-game) |
+| [0073-set-matrix-zeroes](https://github.com/himani931/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0128-longest-consecutive-sequence](https://github.com/himani931/DSA/tree/master/0128-longest-consecutive-sequence) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/himani931/DSA/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/himani931/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
+| [0073-set-matrix-zeroes](https://github.com/himani931/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/himani931/DSA/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/himani931/DSA/tree/master/0221-maximal-square) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/himani931/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/himani931/DSA/tree/master/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/himani931/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/himani931/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0160-intersection-of-two-linked-lists](https://github.com/himani931/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/himani931/DSA/tree/master/0217-contains-duplicate) |
