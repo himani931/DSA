@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/himani931/DSA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/himani931/DSA/tree/master/0055-jump-game) |
+| [0063-unique-paths-ii](https://github.com/himani931/DSA/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/himani931/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/himani931/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/himani931/DSA/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/himani931/DSA/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/himani931/DSA/tree/master/0063-unique-paths-ii) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0096-unique-binary-search-trees](https://github.com/himani931/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0152-maximum-product-subarray](https://github.com/himani931/DSA/tree/master/0152-maximum-product-subarray) |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/himani931/DSA/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/himani931/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/himani931/DSA/tree/master/0054-spiral-matrix) |
+| [0063-unique-paths-ii](https://github.com/himani931/DSA/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/himani931/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/himani931/DSA/tree/master/0200-number-of-islands) |
