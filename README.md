@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/himani931/DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/himani931/DSA/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/himani931/DSA/tree/master/0062-unique-paths) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0096-unique-binary-search-trees](https://github.com/himani931/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0152-maximum-product-subarray](https://github.com/himani931/DSA/tree/master/0152-maximum-product-subarray) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/himani931/DSA/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/himani931/DSA/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/himani931/DSA/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/himani931/DSA/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/himani931/DSA/tree/master/0069-sqrtx) |
 | [0096-unique-binary-search-trees](https://github.com/himani931/DSA/tree/master/0096-unique-binary-search-trees) |
 | [0279-perfect-squares](https://github.com/himani931/DSA/tree/master/0279-perfect-squares) |
@@ -331,4 +333,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/himani931/DSA/tree/master/0037-sudoku-solver) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/himani931/DSA/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
