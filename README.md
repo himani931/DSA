@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/himani931/DSA/tree/master/0090-subsets-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/himani931/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/himani931/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/himani931/DSA/tree/master/0134-gas-station) |
 | [0152-maximum-product-subarray](https://github.com/himani931/DSA/tree/master/0152-maximum-product-subarray) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/himani931/DSA/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0096-unique-binary-search-trees](https://github.com/himani931/DSA/tree/master/0096-unique-binary-search-trees) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/himani931/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/himani931/DSA/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/himani931/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/himani931/DSA/tree/master/0213-house-robber-ii) |
