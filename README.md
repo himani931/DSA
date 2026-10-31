@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/himani931/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0354-russian-doll-envelopes](https://github.com/himani931/DSA/tree/master/0354-russian-doll-envelopes) |
 | [0377-combination-sum-iv](https://github.com/himani931/DSA/tree/master/0377-combination-sum-iv) |
+| [0485-max-consecutive-ones](https://github.com/himani931/DSA/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/himani931/DSA/tree/master/0486-predict-the-winner) |
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/himani931/DSA/tree/master/0801-minimum-swaps-to-make-sequences-increasing) |
 | [0983-minimum-cost-for-tickets](https://github.com/himani931/DSA/tree/master/0983-minimum-cost-for-tickets) |
