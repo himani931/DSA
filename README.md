@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/himani931/DSA/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/himani931/DSA/tree/master/0090-subsets-ii) |
+| [0401-binary-watch](https://github.com/himani931/DSA/tree/master/0401-binary-watch) |
 ## Linked List
 |  |
 | ------- |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/himani931/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/himani931/DSA/tree/master/0090-subsets-ii) |
 | [0287-find-the-duplicate-number](https://github.com/himani931/DSA/tree/master/0287-find-the-duplicate-number) |
+| [0401-binary-watch](https://github.com/himani931/DSA/tree/master/0401-binary-watch) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/himani931/DSA/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Tree
 |  |
