@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/himani931/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0485-max-consecutive-ones](https://github.com/himani931/DSA/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/himani931/DSA/tree/master/0486-predict-the-winner) |
+| [0496-next-greater-element-i](https://github.com/himani931/DSA/tree/master/0496-next-greater-element-i) |
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/himani931/DSA/tree/master/0801-minimum-swaps-to-make-sequences-increasing) |
 | [0983-minimum-cost-for-tickets](https://github.com/himani931/DSA/tree/master/0983-minimum-cost-for-tickets) |
 | [1027-longest-arithmetic-subsequence](https://github.com/himani931/DSA/tree/master/1027-longest-arithmetic-subsequence) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
 | [0144-binary-tree-preorder-traversal](https://github.com/himani931/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0155-min-stack](https://github.com/himani931/DSA/tree/master/0155-min-stack) |
+| [0496-next-greater-element-i](https://github.com/himani931/DSA/tree/master/0496-next-greater-element-i) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/himani931/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Matrix
 |  |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
+| [0496-next-greater-element-i](https://github.com/himani931/DSA/tree/master/0496-next-greater-element-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -185,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/himani931/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0160-intersection-of-two-linked-lists](https://github.com/himani931/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0217-contains-duplicate](https://github.com/himani931/DSA/tree/master/0217-contains-duplicate) |
+| [0496-next-greater-element-i](https://github.com/himani931/DSA/tree/master/0496-next-greater-element-i) |
 | [1027-longest-arithmetic-subsequence](https://github.com/himani931/DSA/tree/master/1027-longest-arithmetic-subsequence) |
 | [1218-longest-arithmetic-subsequence-of-given-difference](https://github.com/himani931/DSA/tree/master/1218-longest-arithmetic-subsequence-of-given-difference) |
 | [1331-rank-transform-of-an-array](https://github.com/himani931/DSA/tree/master/1331-rank-transform-of-an-array) |
