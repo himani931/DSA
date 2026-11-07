@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/himani931/DSA/tree/master/0221-maximal-square) |
 | [0287-find-the-duplicate-number](https://github.com/himani931/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/himani931/DSA/tree/master/0300-longest-increasing-subsequence) |
+| [0303-range-sum-query-immutable](https://github.com/himani931/DSA/tree/master/0303-range-sum-query-immutable) |
 | [0354-russian-doll-envelopes](https://github.com/himani931/DSA/tree/master/0354-russian-doll-envelopes) |
 | [0377-combination-sum-iv](https://github.com/himani931/DSA/tree/master/0377-combination-sum-iv) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/himani931/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -399,11 +400,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/himani931/DSA/tree/master/0303-range-sum-query-immutable) |
 | [3903-smallest-stable-index-i](https://github.com/himani931/DSA/tree/master/3903-smallest-stable-index-i) |
 ## Design
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/himani931/DSA/tree/master/0155-min-stack) |
+| [0303-range-sum-query-immutable](https://github.com/himani931/DSA/tree/master/0303-range-sum-query-immutable) |
 ## Geometry
 |  |
 | ------- |
