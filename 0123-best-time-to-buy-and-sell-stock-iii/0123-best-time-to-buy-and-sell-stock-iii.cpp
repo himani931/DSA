@@ -21,50 +21,52 @@ public:
     // }
 
     // top down
-    int solve(int i , int buy , int limit , vector<int>& prices , vector<vector<vector<int>>> &dp) {
-         if(i == prices.size()) return 0;
-         if(limit == 0) return 0;
+    // int solve(int i , int buy , int limit , vector<int>& prices , vector<vector<vector<int>>> &dp) {
+    //      if(i == prices.size()) return 0;
+    //      if(limit == 0) return 0;
 
-         if(dp[i][buy][limit] != -1) return dp[i][buy][limit];
+    //      if(dp[i][buy][limit] != -1) return dp[i][buy][limit];
 
-        int profit = 0;
+    //     int profit = 0;
 
-        if(buy) {
-            profit = max((-prices[i] + solve(i + 1 , 0 , limit , prices , dp)) ,( 0 +
-            solve(i + 1 , 1 , limit , prices , dp)));
-        }
+    //     if(buy) {
+    //         profit = max((-prices[i] + solve(i + 1 , 0 , limit , prices , dp)) ,( 0 +
+    //         solve(i + 1 , 1 , limit , prices , dp)));
+    //     }
 
-        else {
-            profit = max((prices[i] + solve(i+1 , 1 , limit-1 , prices , dp)) ,( 0 + solve(i
-            + 1 , 0 , limit, prices , dp)));
-        }
-        dp[i][buy][limit] = profit;
-         return dp[i][buy][limit];
-    }
+    //     else {
+    //         profit = max((prices[i] + solve(i+1 , 1 , limit-1 , prices , dp)) ,( 0 + solve(i
+    //         + 1 , 0 , limit, prices , dp)));
+    //     }
+    //     dp[i][buy][limit] = profit;
+    //      return dp[i][buy][limit];
+    // }
 
     // bottom up
-    // int solve(vector<int>& prices) {
-    //     int n = prices.size();
-    //     vector<vector<int>> dp(n+1, vector<int>(2, 0));
+    int solve(vector<int>& prices) {
+        int n = prices.size();
+        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(3 , 0)));
 
-    //     for (int i = n - 1; i >= 0; i--) {
-    //         for (int buy = 0; buy <= 1; buy++) {
-    //             int profit = 0;
+        for (int i = n - 1; i >= 0; i--) {
+            for (int buy = 0; buy <= 1; buy++) {
+                for(int limit = 1 ; limit <= 2 ; limit++) {
+                    int profit = 0;
 
-    //             if (buy) {
-    //                 profit = max((-prices[i] + dp[i + 1][0]),
-    //                              (0 + dp[i + 1][1]));
-    //             }
+                if (buy) {
+                    profit = max((-prices[i] + dp[i + 1][0][limit]),
+                                 (0 + dp[i + 1][1][limit]));
+                }
 
-    //             else {
-    //                 profit = max((prices[i] + dp[i + 1][1]),
-    //                              (0 + dp[i + 1][0]));
-    //             }
-    //             dp[i][buy] = profit;
-    //         }
-    //     }
-    //     return dp[0][1];
-    // }
+                else {
+                    profit = max((prices[i] + dp[i + 1][1][limit-1]),
+                                 (0 + dp[i + 1][0][limit]));
+                }
+                dp[i][buy][limit] = profit;
+                }
+            }
+        }
+        return dp[0][1][2];
+    }
 
     // //space optimization
 
@@ -95,8 +97,9 @@ public:
     // }
 
     int maxProfit(vector<int>& prices) {
-        int n = prices.size();
-        vector<vector<vector<int>>>dp(n , vector<vector<int>>(2 , vector<int>(3 , -1)));
-        return solve(0 , 1 , 2 , prices , dp);
+        // int n = prices.size();
+        // vector<vector<vector<int>>>dp(n , vector<vector<int>>(2 , vector<int>(3 , -1)));
+        // return solve(0 , 1 , 2 , prices , dp);
+        return solve(prices);
     }
 };
