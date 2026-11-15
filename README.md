@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/himani931/DSA/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/himani931/DSA/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/himani931/DSA/tree/master/0061-rotate-list) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/himani931/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/himani931/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0160-intersection-of-two-linked-lists](https://github.com/himani931/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 ## Math
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/himani931/DSA/tree/master/0020-valid-parentheses) |
 | [0085-maximal-rectangle](https://github.com/himani931/DSA/tree/master/0085-maximal-rectangle) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/himani931/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/himani931/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0155-min-stack](https://github.com/himani931/DSA/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/himani931/DSA/tree/master/0496-next-greater-element-i) |
@@ -286,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/himani931/DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/himani931/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/himani931/DSA/tree/master/0110-balanced-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/himani931/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/himani931/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/himani931/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/himani931/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -302,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/himani931/DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/himani931/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/himani931/DSA/tree/master/0110-balanced-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/himani931/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/himani931/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/himani931/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/himani931/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -315,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0099-recover-binary-search-tree](https://github.com/himani931/DSA/tree/master/0099-recover-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/himani931/DSA/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/himani931/DSA/tree/master/0110-balanced-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/himani931/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/himani931/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/himani931/DSA/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/himani931/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
