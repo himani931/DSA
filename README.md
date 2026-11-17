@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/himani931/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/himani931/DSA/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/himani931/DSA/tree/master/0344-reverse-string) |
+| [0696-count-binary-substrings](https://github.com/himani931/DSA/tree/master/0696-count-binary-substrings) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/himani931/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 ## Greedy
 |  |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/himani931/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/himani931/DSA/tree/master/0020-valid-parentheses) |
 | [0344-reverse-string](https://github.com/himani931/DSA/tree/master/0344-reverse-string) |
+| [0696-count-binary-substrings](https://github.com/himani931/DSA/tree/master/0696-count-binary-substrings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/himani931/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/himani931/DSA/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2409-count-days-spent-together](https://github.com/himani931/DSA/tree/master/2409-count-days-spent-together) |
