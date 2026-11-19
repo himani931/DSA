@@ -70,38 +70,79 @@ public:
 
     // //space optimization
 
-    int solve(vector<int>& prices , int k) {
-        int n = prices.size();
-        vector<vector<int>> next(2, vector<int>(k+1, 0));
-        vector<vector<int>> curr(2, vector<int>(k+1, 0));
+    // int solve(vector<int>& prices , int k) {
+    //     int n = prices.size();
+    //     vector<vector<int>> next(2, vector<int>(k+1, 0));
+    //     vector<vector<int>> curr(2, vector<int>(k+1, 0));
 
-        for (int i = n - 1; i >= 0; i--) {
-            for (int buy = 0; buy <= 1; buy++) {
-                for(int limit = 1 ; limit <= k ; limit++) {
-                    int profit = 0;
+    //     for (int i = n - 1; i >= 0; i--) {
+    //         for (int buy = 0; buy <= 1; buy++) {
+    //             for(int limit = 1 ; limit <= k ; limit++) {
+    //                 int profit = 0;
 
-                if (buy) {
-                    profit = max((-prices[i] + next[0][limit]),
-                                 (0 + next[1][limit]));
-                }
+    //             if (buy) {
+    //                 profit = max((-prices[i] + next[0][limit]),
+    //                              (0 + next[1][limit]));
+    //             }
 
-                else {
-                    profit = max((prices[i] + next[1][limit-1]),
-                                 (0 + next[0][limit]));
-                }
-                curr[buy][limit] = profit;
-                }
-            }
-            next = curr;
+    //             else {
+    //                 profit = max((prices[i] + next[1][limit-1]),
+    //                              (0 + next[0][limit]));
+    //             }
+    //             curr[buy][limit] = profit;
+    //             }
+    //         }
+    //         next = curr;
+    //     }
+    //     return next[1][k];
+    // }
+
+
+
+    //using transaction no
+
+    // int solve(int i , int transaction , int k  , vector<int> &prices) {
+    //     if(i >= prices.size() ) return 0;
+    //     if(transaction == 2*k) return 0;
+
+    //     int profit = 0 ;
+
+    //     if(transaction % 2 == 0) {
+    //          profit = max((-prices[i] + solve(i + 1 , transaction + 1 , k , prices)) ,( 0 +
+    //          solve(i + 1 , transaction , k , prices)));
+    //     } else {
+    //         profit = max((prices[i] + solve(i+1 , transaction + 1 , k , prices)) ,( 0 + solve(i
+    //           + 1 , transaction , k , prices)));
+    //     }
+    //     return profit;
+    // }
+
+    //top down
+
+     int solve(int i , int transaction , int k  , vector<int> &prices , vector<vector<int>> &dp) {
+        if(i >= prices.size() ) return 0;
+        if(transaction == 2*k) return 0;
+        if(dp[i][transaction] != -1) return dp[i][transaction];
+
+        int profit = 0 ;
+
+        if(transaction % 2 == 0) {
+             profit = max((-prices[i] + solve(i + 1 , transaction + 1 , k , prices , dp)) ,( 0 +
+             solve(i + 1 , transaction , k , prices , dp)));
+        } else {
+            profit = max((prices[i] + solve(i+1 , transaction + 1 , k , prices , dp)) ,( 0 + solve(i
+              + 1 , transaction , k , prices , dp)));
         }
-        return next[1][k];
+        return dp[i][transaction] = profit;
     }
 
     int maxProfit(int k, vector<int>& prices) {
-        // return solve(0 , 1 , k , prices);
-        // int n = prices.size();
+        // return solve(0 , 0 , k , prices);
+        int n = prices.size();
         // vector<vector<vector<int>>>dp(n , vector<vector<int>>(2 , vector<int>(k+1 , -1)));
+        vector<vector<int>>dp(n , vector<int>(2*k , -1));
+        return solve(0 , 0 , k , prices , dp);
         // return solve(0 , 1 , k , prices , dp);
-        return solve(prices , k);
+        // return solve(prices , k);
     }
 };
