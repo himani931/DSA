@@ -36,24 +36,48 @@ public:
 
     // bottom up
 
+    // int solve(string s1, string s2) {
+    //     int n = s1.length();
+    //     int m = s2.length();
+    //     vector<vector<int>> dp(n+1 , vector<int>(m+1, 0));
+
+    //     for (int i = n - 1; i >= 0; i--) {
+    //         for (int j = m - 1; j >= 0; j--) {
+    //             int ans = 0;
+    //             if (s1[i] == s2[j]) {
+    //                 ans = 1 + dp[i + 1][j + 1];
+    //             } else {
+    //                 ans = max(dp[i][j + 1],
+    //                           dp[i + 1][j]);
+    //             }
+    //              dp[i][j] = ans;
+    //         }
+    //     }
+    //     return dp[0][0];
+    // }
+
+    //space optimization
+
     int solve(string s1, string s2) {
         int n = s1.length();
         int m = s2.length();
-        vector<vector<int>> dp(n+1 , vector<int>(m+1, 0));
+        vector<int>curr(m+1 , 0);
+        vector<int> next(m+1 ,0);
 
         for (int i = n - 1; i >= 0; i--) {
             for (int j = m - 1; j >= 0; j--) {
                 int ans = 0;
                 if (s1[i] == s2[j]) {
-                    ans = 1 + dp[i + 1][j + 1];
+                    ans = 1 + next[j + 1];
                 } else {
-                    ans = max(dp[i][j + 1],
-                              dp[i + 1][j]);
+                    ans = max(curr[j + 1],
+                              next[j]);
                 }
-                 dp[i][j] = ans;
+                 curr[j] = ans;
             }
+            next = curr;
         }
-        return dp[0][0];
+        return next[0];
     }
 
     int longestCommonSubsequence(string text1, string text2) {
