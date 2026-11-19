@@ -1,7 +1,6 @@
 class Solution {
 public:
-
-// recursion
+    // recursion
     //  int solve(int i , int buy , int limit , vector<int>& prices) {
     //      if(i == prices.size()) return 0;
     //      if(limit == 0) return 0;
@@ -9,19 +8,21 @@ public:
     //     int profit = 0;
 
     //     if(buy) {
-    //         profit = max((-prices[i] + solve(i + 1 , 0 , limit , prices)) ,( 0 +
-    //         solve(i + 1 , 1 , limit , prices)));
+    //         profit = max((-prices[i] + solve(i + 1 , 0 , limit , prices)) ,(
+    //         0 + solve(i + 1 , 1 , limit , prices)));
     //     }
 
     //     else {
-    //         profit = max((prices[i] + solve(i+1 , 1 , limit-1 , prices)) ,( 0 + solve(i
+    //         profit = max((prices[i] + solve(i+1 , 1 , limit-1 , prices)) ,( 0
+    //         + solve(i
     //         + 1 , 0 , limit, prices)));
     //     }
     //     return profit;
     // }
 
     // top down
-    // int solve(int i , int buy , int limit , vector<int>& prices , vector<vector<vector<int>>> &dp) {
+    // int solve(int i , int buy , int limit , vector<int>& prices ,
+    // vector<vector<vector<int>>> &dp) {
     //      if(i == prices.size()) return 0;
     //      if(limit == 0) return 0;
 
@@ -30,12 +31,13 @@ public:
     //     int profit = 0;
 
     //     if(buy) {
-    //         profit = max((-prices[i] + solve(i + 1 , 0 , limit , prices , dp)) ,( 0 +
-    //         solve(i + 1 , 1 , limit , prices , dp)));
+    //         profit = max((-prices[i] + solve(i + 1 , 0 , limit , prices ,
+    //         dp)) ,( 0 + solve(i + 1 , 1 , limit , prices , dp)));
     //     }
 
     //     else {
-    //         profit = max((prices[i] + solve(i+1 , 1 , limit-1 , prices , dp)) ,( 0 + solve(i
+    //         profit = max((prices[i] + solve(i+1 , 1 , limit-1 , prices , dp))
+    //         ,( 0 + solve(i
     //         + 1 , 0 , limit, prices , dp)));
     //     }
     //     dp[i][buy][limit] = profit;
@@ -45,7 +47,8 @@ public:
     // bottom up
     // int solve(vector<int>& prices , int k) {
     //     int n = prices.size();
-    //     vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(k+1 , 0)));
+    //     vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2,
+    //     vector<int>(k+1 , 0)));
 
     //     for (int i = n - 1; i >= 0; i--) {
     //         for (int buy = 0; buy <= 1; buy++) {
@@ -97,9 +100,7 @@ public:
     //     return next[1][k];
     // }
 
-
-
-    //using transaction no
+    // using transaction no
 
     // int solve(int i , int transaction , int k  , vector<int> &prices) {
     //     if(i >= prices.size() ) return 0;
@@ -108,40 +109,73 @@ public:
     //     int profit = 0 ;
 
     //     if(transaction % 2 == 0) {
-    //          profit = max((-prices[i] + solve(i + 1 , transaction + 1 , k , prices)) ,( 0 +
-    //          solve(i + 1 , transaction , k , prices)));
+    //          profit = max((-prices[i] + solve(i + 1 , transaction + 1 , k ,
+    //          prices)) ,( 0 + solve(i + 1 , transaction , k , prices)));
     //     } else {
-    //         profit = max((prices[i] + solve(i+1 , transaction + 1 , k , prices)) ,( 0 + solve(i
+    //         profit = max((prices[i] + solve(i+1 , transaction + 1 , k ,
+    //         prices)) ,( 0 + solve(i
     //           + 1 , transaction , k , prices)));
     //     }
     //     return profit;
     // }
 
-    //top down
+    // top down
 
-     int solve(int i , int transaction , int k  , vector<int> &prices , vector<vector<int>> &dp) {
-        if(i >= prices.size() ) return 0;
-        if(transaction == 2*k) return 0;
-        if(dp[i][transaction] != -1) return dp[i][transaction];
+    //  int solve(int i , int transaction , int k  , vector<int> &prices ,
+    //  vector<vector<int>> &dp) {
+    //     if(i >= prices.size() ) return 0;
+    //     if(transaction == 2*k) return 0;
+    //     if(dp[i][transaction] != -1) return dp[i][transaction];
 
-        int profit = 0 ;
+    //     int profit = 0 ;
 
-        if(transaction % 2 == 0) {
-             profit = max((-prices[i] + solve(i + 1 , transaction + 1 , k , prices , dp)) ,( 0 +
-             solve(i + 1 , transaction , k , prices , dp)));
-        } else {
-            profit = max((prices[i] + solve(i+1 , transaction + 1 , k , prices , dp)) ,( 0 + solve(i
-              + 1 , transaction , k , prices , dp)));
+    //     if(transaction % 2 == 0) {
+    //          profit = max((-prices[i] + solve(i + 1 , transaction + 1 , k ,
+    //          prices , dp)) ,( 0 + solve(i + 1 , transaction , k , prices ,
+    //          dp)));
+    //     } else {
+    //         profit = max((prices[i] + solve(i+1 , transaction + 1 , k ,
+    //         prices , dp)) ,( 0 + solve(i
+    //           + 1 , transaction , k , prices , dp)));
+    //     }
+    //     return dp[i][transaction] = profit;
+    // }
+
+    // bottom up
+
+    int solve(vector<int>& prices, int k) {
+        int n = prices.size();
+        vector<vector<int>> dp(n + 1, vector<int>(2 * k + 1, 0));
+
+        for (int i = n - 1; i >= 0; i--) {
+            for (int transaction = 0; transaction < 2 * k ; transaction++) {
+                int profit = 0;
+
+                if (transaction % 2 == 0) {
+                    profit =
+                        max((-prices[i] +
+                             dp[i + 1][transaction + 1]),
+                            (0 + dp[i + 1][transaction]));
+                } else {
+                    profit =
+                        max((prices[i] +
+                             dp[i + 1][transaction + 1]),
+                            (0 + dp[i + 1][transaction]));
+                }
+                 dp[i][transaction] = profit;
+            }
         }
-        return dp[i][transaction] = profit;
+        return dp[0][0];
     }
 
     int maxProfit(int k, vector<int>& prices) {
         // return solve(0 , 0 , k , prices);
         int n = prices.size();
-        // vector<vector<vector<int>>>dp(n , vector<vector<int>>(2 , vector<int>(k+1 , -1)));
-        vector<vector<int>>dp(n , vector<int>(2*k , -1));
-        return solve(0 , 0 , k , prices , dp);
+        // vector<vector<vector<int>>>dp(n , vector<vector<int>>(2 ,
+        // vector<int>(k+1 , -1)));
+        // vector<vector<int>> dp(n, vector<int>(2 * k, -1));
+        // return solve(0, 0, k, prices, dp);
+        return solve(prices , k);
         // return solve(0 , 1 , k , prices , dp);
         // return solve(prices , k);
     }
