@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0375-guess-number-higher-or-lower-ii](https://github.com/himani931/DSA/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0377-combination-sum-iv](https://github.com/himani931/DSA/tree/master/0377-combination-sum-iv) |
 | [0486-predict-the-winner](https://github.com/himani931/DSA/tree/master/0486-predict-the-winner) |
+| [0516-longest-palindromic-subsequence](https://github.com/himani931/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/himani931/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0801-minimum-swaps-to-make-sequences-increasing](https://github.com/himani931/DSA/tree/master/0801-minimum-swaps-to-make-sequences-increasing) |
 | [0983-minimum-cost-for-tickets](https://github.com/himani931/DSA/tree/master/0983-minimum-cost-for-tickets) |
@@ -398,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/himani931/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/himani931/DSA/tree/master/0020-valid-parentheses) |
 | [0344-reverse-string](https://github.com/himani931/DSA/tree/master/0344-reverse-string) |
+| [0516-longest-palindromic-subsequence](https://github.com/himani931/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0696-count-binary-substrings](https://github.com/himani931/DSA/tree/master/0696-count-binary-substrings) |
 | [1143-longest-common-subsequence](https://github.com/himani931/DSA/tree/master/1143-longest-common-subsequence) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/himani931/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
